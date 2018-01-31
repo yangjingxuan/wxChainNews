@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2a579a",
+    "navigationBarTitleText": "e 新闻",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#2a579a",
+    "color": "#DCEDC8",
+    "selectedColor": "#DCEDC8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "币财经"
+      },
+      {
+        "pagePath": "pages/shijie/shijie",
+        "text": "币世界"
+      },
+      {
+        "pagePath": "pages/zhidao/zhidao",
+        "text": "币知道"
+      },
+      {
+        "pagePath": "pages/gonggao/gonggao",
+        "text": "币公告"
+      },
+      {
+        "pagePath": "pages/ribao/ribao",
+        "text": "币日报"
+      }
+    ]
+  }
+}
